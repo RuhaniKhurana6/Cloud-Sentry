@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local runtime audit logs
+data/audit_logs.json
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

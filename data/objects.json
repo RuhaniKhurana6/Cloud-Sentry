@@ -1,0 +1,52 @@
+[
+  {
+    "id": "OBJ001",
+    "name": "public_notice.pdf",
+    "owner": "Alice",
+    "classification": "Public",
+    "policy": "public-read",
+    "allowed_roles": []
+  },
+  {
+    "id": "OBJ002",
+    "name": "company_policy.pdf",
+    "owner": "Alice",
+    "classification": "Internal",
+    "policy": "role-restricted",
+    "allowed_roles": [
+      "Admin",
+      "Manager",
+      "Employee"
+    ]
+  },
+  {
+    "id": "OBJ003",
+    "name": "employee_records.csv",
+    "owner": "Alice",
+    "classification": "Confidential",
+    "policy": "role-restricted",
+    "allowed_roles": [
+      "Admin",
+      "Manager"
+    ]
+  },
+  {
+    "id": "OBJ004",
+    "name": "salary_data.xlsx",
+    "owner": "Alice",
+    "classification": "Confidential",
+    "policy": "role-restricted",
+    "allowed_roles": [
+      "Admin",
+      "Manager"
+    ]
+  },
+  {
+    "id": "OBJ005",
+    "name": "database_backup.zip",
+    "owner": "Alice",
+    "classification": "Restricted",
+    "policy": "private",
+    "allowed_roles": []
+  }
+]
